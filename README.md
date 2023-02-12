@@ -42,8 +42,8 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 Conference Website](#About the Project)
   - [🛠 Built With HTML, CSS and Javascript using VS Code and Git Hub ](#built-with)
-    - [Tech Stack HTML and CSS](#tech-stack)
-    - [Key Features Conference Page _ Demostration of portfolio Projects](#key-features)
+    - [Tech Stack HTML, CSS and Javascript](#tech-stack)
+    - [Key Features Conference Page _ Demostration of Web Summit conference Project](#key-features)
   - [🚀 Live Demo available on Git Hub](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
