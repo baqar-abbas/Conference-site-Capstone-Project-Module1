@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* ========Mobile version CSS Rule set=======1 */
+.nav-menu {
+  background-color: #fff;
+  background-image: url('./images/topbg.png');
+  background-size: cover;
+  height: 120px;
+}
+
+.imageone {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.nav-menu-desktop {
+  display: none;
+}
+
+.list2 {
+  display: none;
+}
+
+.nav-menu-desktop2 {
+  display: none;
+}
+
+.headline {
+  background-image: url('./images/bgimagedesign.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 250px 0;
+  background-color: #d3d3d3;
+  padding: 45px;
+  width: 100%;
+  height: 650px;
+}
+
+.topheadingh3 {
+  color: #ec5242;
+}
+
+.topheadingh1 {
+  font-size: 47px;
+  display: block;
+  color: red;
+  font-weight: 900;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ec0e0e4f;
+}
+
+.paradiv {
+  background-color: #d3d3d3;
+  border: 5px solid #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+.headlinepara {
+  color: #272a31;
+}
+
+.datediv {
+  width: 100%;
+}
+
+.dateheading {
+  color: #272a31;
+  font-weight: 800;
+}
+
+.locationpara {
+  color: #272a31;
+}
+
+.headlinedesktop {
+  display: none;
+}
+
+#main-section {
+  text-align: center;
+  width: 100%;
+}
+
+.cover-program {
+  background-image: url('./images/patternbg.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-color: rgb(39, 42, 50);
+  padding: 5px;
+  width: 100%;
+  height: 750px;
+}
+
+.hr {
+  width: 30px;
+  border-color: #ec5242;
+  margin-bottom: 16px;
+}
+
+.program-list h2 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.bg-program {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 99%;
+}
+
+.bg-program li {
+  margin-top: 10px;
+}
+
+.bg-program img {
+  padding: 0%;
+}
+
+.bg-program li h3 {
+  color: #ec5242;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 2px;
+  margin-left: 2px;
+  width: 99%;
+}
+
+.bg-program li p {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 2px;
+  padding: 2px;
+}
+
+.join-btn {
+  width: auto;
+  background-color: #ec5242;
+  margin-top: 4rem;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 1.5rem 2rem;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonlink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.cover-program-desktop {
+  display: none;
+}
+
+/* ========Media Queries=======1 */
+@media screen and (min-width: 768px) {
+  nav.nav-menu {
+    display: none;
+  }
+
+  nav.nav-menu-desktop {
+    display: flex;
+    background-color: #272a31;
+    justify-content: flex-end;
+    padding-right: 54px;
+  }
+
+  .list {
+    display: flex;
+    color: #fff;
+    list-style-type: none;
+  }
+
+  .list li {
+    padding-right: 44px;
+  }
+
+  .header-icon {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav.nav-menu-desktop2 {
+    display: flex;
+  }
+
+  .div1 {
+    flex: 40%;
+  }
+
+  .div2 {
+    flex: 60%;
+  }
+
+  .logolink {
+    width: 90px;
+    height: 90px;
+  }
+
+  .list2 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 60px;
+  }
+
+  .list2 li {
+    padding: 25px;
+    align-self: center;
+  }
+
+  .list2 li a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .summit-logo {
+    position: relative;
+    left: 80px;
+  }
+
+  .nav-links {
+    position: relative;
+    left: 465px;
+  }
+
+  article .headline {
+    display: none;
+  }
+
+  article .headlinedesktop {
+    display: block;
+  }
+
+  .cover-program-desktop {
+    background-image: url('./images/patternbg.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-color: rgb(39, 42, 50);
+    padding: 5px;
+    width: 100%;
+    height: 450px;
+  }
+
+  #main-section .cover-program {
+    display: none;
+  }
+
+  #main-section .cover-program-desktop {
+    display: block;
+  }
+
+  .program-list-desktop h2 {
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .desktop-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-program-desktop {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 5px;
+    padding: 0 10px;
+    height: 250px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 16%;
+  }
+
+  .bg-program-desktop li h3 {
+    color: #ec5242;
+    font-size: 16px;
+    padding-left: 2px;
+    margin-left: 2px;
+    width: auto;
+  }
+
+  .bg-program-desktop li p {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 2px;
+    padding: 2px;
+  }
+
+  .whole-link {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+}
+
+/* ========Desktop version CSS Rule set=======1 */
+.topdesktop {
+  background-image: url('./images/topbg.png');
+  background-size: cover;
+  height: 200px;
+}
+
+.topheadingdesktop {
+  color: orangered;
+  font-size: 34px;
+  font-weight: 400;
+  position: relative;
+  top: 150px;
+  left: 105px;
+}
+
+.topheadingdesktopdiv {
+  background-image: url('./images/bgimagedesign.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 350px 0;
+  background-color: #fff;
+  position: relative;
+  left: 65px;
+  padding: 45px;
+  width: 100%;
+  height: 545px;
+}
+
+.topheadingh1desktop {
+  font-size: 50px;
+  display: block;
+  color: red;
+  font-weight: 900;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ec0e0e4f;
+}
+
+.paradivdesktop {
+  background-color: #d3d3d3;
+  border: 5px solid darkgrey;
+  padding: 10px;
+  width: 50%;
+}
+
+.headlineparadesktop {
+  color: #272a31;
+}
+
+.datedivdesktop {
+  width: 100%;
+}
+
+.dateheadingdesktop {
+  color: #272a31;
+  font-weight: 800;
+}
+
+.locationparadesktop {
+  color: #272a31;
+}
