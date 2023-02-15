@@ -1,332 +1,319 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
-
 body {
-  margin: 0;
-  font-family: "Lato", sans-serif;
+    margin: 0;
+    font-family: "Lato", sans-serif;
 }
-
 .nav-menu-about {
-  background-color: #fff;
-  background-image: url('./images/topbg.png');
-  background-size: cover;
-  height: 120px;
+    background-color: #fff;
+    background-image: url('./images/topbg.png');
+    background-size: cover;
+    height: 120px;
 }
-
+.mobile-menu {
+    min-height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* background: #0e23dda9; */
+    background: #ec534228;
+    backdrop-filter: blur(10px);
+    transition: 0.6s;
+  }
+  .mobile-menu ul {
+    list-style-type: none;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mobile-menu ul li {
+    padding: 10% 5%;
+  }
+  .mobile-menu li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+  
 .imageone-about {
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
-
 .nav-menu-desktop-about {
-  display: none;
+    display: none;
 }
-
 .list2-about {
-  display: none;
+    display: none;
 }
-
 .nav-menu-desktop2-about {
-  display: none;
+    display: none;
 }
-
 .headline-about {
-  background-image: url('./images/bgimagedesign.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 250px 0;
-  background-color: #d3d3d3;
-  padding: 45px;
-  width: 100%;
-  height: 700px;
+    background-image: url('./images/bgimagedesign.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 250px 0;
+    background-color: #D3D3D3;
+    padding: 45px;
+    width: 100%;
+    height: 700px;
 }
-
 .topheadingh3-about {
-  color: #ec5242;
+    color: #ec5242;
 }
 
 .topheadingh1-about {
-  font-size: 47px;
-  display: block;
-  color: red;
-  font-weight: 900;
-  background-image: linear-gradient(to bottom right, red, yellow);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #ec0e0e4f;
+    font-size: 47px;
+    display: block;
+    color: red;
+    font-weight: 900;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ec0e0e4f;
+    
 }
 
 .paradiv-about {
-  background-color: #fff;
-  border: 1px solid darkgrey;
-  padding: 10px;
-  width: 100%;
+    background-color: #fff;
+    border: 1px solid darkgrey;
+    padding: 10px;
+    width: 100%;
 }
-
 .headlinepara-about {
-  color: #272a31;
-}
-
-.datediv-about {
-  width: 100%;
-}
-
-.dateheading-about {
-  color: #272a31;
-  font-weight: 600;
-}
-
-.locationpara-about {
-  color: #272a31;
-}
-
-.headlinedesktop-about {
-  display: none;
-}
-
-.hr {
-  width: 30px;
-  border-color: #ec5242;
-  margin-bottom: 16px;
-}
-
-.logo-section {
-  width: 100%;
-  height: 550px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.logosection-heading {
-  text-align: center;
-  color: #272a31;
-  font-weight: 600;
-  font-size: 35px;
-  margin-top: 35px;
-}
-
-.logosection-para {
-  color: #272a31;
-  font-size: 18px;
-  text-align: center;
-  padding: 0 10px;
-  line-height: 1.5;
-  margin: 15px 20px;
-}
-
-.logo-div {
-  padding: 0;
-  margin-top: 15px;
-  border: #272a31 1px solid;
-  align-self: center;
-  text-align: center;
-  width: 80%;
-}
-
-.logo-specifics {
-  width: 250px;
-  height: 250px;
-}
-
-.pastproject-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.summit22 {
-  align-self: center;
-  width: 320px;
-  height: 250px;
-}
-
-.summit20 {
-  align-self: center;
-  margin-top: 10px;
-  width: 320px;
-  height: 250px;
-}
-
-.partner-section {
-  background-color: rgb(39, 42, 50);
-  height: 550px;
-}
-
-.partner-heading {
-  color: #fff;
-}
-
-.partner-div {
-  text-align: center;
-}
-
-/* ========Media Queries=======1 */
-@media screen and (min-width: 768px) {
-  nav.nav-menu-about {
-    display: none;
-  }
-
-  nav.nav-menu-desktop-about {
-    display: flex;
-    background-color: #272a31;
-    justify-content: flex-end;
-    padding-right: 54px;
-  }
-
-  .list-about {
-    display: flex;
-    color: #fff;
-    list-style-type: none;
-  }
-
-  .list-about li {
-    padding-right: 44px;
-  }
-
-  .header-icon-about {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  nav.nav-menu-desktop2-about {
-    display: flex;
-  }
-
-  .logolink-about {
-    width: 90px;
-    height: 90px;
-  }
-
-  .list2-about {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    height: 60px;
-  }
-
-  .list2-about li {
-    padding: 25px;
-    align-self: center;
-  }
-
-  .list2-about li a {
-    text-decoration: none;
     color: #272a31;
-  }
-
-  .summit-logo-about {
-    position: relative;
-    left: 80px;
-  }
-
-  .nav-links-about {
-    position: relative;
-    left: 465px;
-  }
-
-  article .headline-about {
+}
+.datediv-about {
+    width: 100%;
+}
+.dateheading-about {
+    color: #272a31;
+    font-weight: 600;
+}
+.locationpara-about {
+    color: #272a31;
+}
+.headlinedesktop-about {
     display: none;
+}
+.hr {
+    width: 30px;
+    border-color: #ec5242;
+    margin-bottom: 16px;
   }
-
-  article .headlinedesktop-about {
-    display: block;
-  }
-
   .logo-section {
-    background-color: #d3d3d3;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  .logosection-heading {
+    text-align: center;
+    color: #272a31;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 35px;
   }
-
+  .logosection-para {
+    color: #272a31;;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1.5;
+    margin: 15px 20px;
+  }
   .logo-div {
-    width: 40%;
+    padding: 0;
+    margin-top: 15px;
+    border: #272a31 1px solid;
+    align-self: center;
+    text-align: center;
+    width: 80%;
   }
-
+  .logo-specifics {
+    width: 250px;
+    height: 250px;
+  }
+  .pastproject-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .summit22 {
-    width: 420px;
-    height: 350px;
+    align-self: center;
+    width: 320px;
+    height: 250px;
   }
-
   .summit20 {
+    align-self: center;
     margin-top: 10px;
-    float: left;
-    width: 420px;
-    height: 350px;
+    width: 320px;
+    height: 250px;
   }
-
   .partner-section {
-    height: 300px;
-  }
+    background-color: rgb(39, 42, 50);
+    height: 550px;
 
+  }
+  .partner-heading {
+    color: #fff;
+  }
   .partner-div {
     text-align: center;
   }
+/*========Media Queries=======1 */
+@media screen and (min-width: 768px) {
+    nav.nav-menu-about {
+        display: none !important;
+    }
+    header .mobile-menu {
+        display: none;
+      }
+    nav.nav-menu-desktop-about {
+        display: flex;
+        background-color: #272a31;
+        justify-content: flex-end;
+        padding-right: 54px;
+    }
+    .list-about {
+        display: flex;
+        color: #fff;
+        list-style-type: none;
+    }
+    .list-about li {
+        padding-right: 44px;
+    }
+    .header-icon-about {
+        text-decoration: none;
+        color: #fff;
+    }
+    nav.nav-menu-desktop2-about {
+        display: flex;
+        }
+        
+    .logolink-about {
+        width: 90px;
+        height: 90px;
+        
+    }
+    .list2-about {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        height: 60px;
+    }
+    .list2-about li {
+         padding: 25px;
+         align-self: center;
+    }
+    .list2-about li a { 
+        text-decoration: none;
+        color: #272a31
+    }
+    .summit-logo-about {
+         position: relative;
+         left: 80px;
+    }
+    .nav-links-about {
+        position: relative;
+        left: 465px;
+    }
+    article .headline-about {
+        display: none;
+    }
+    article .headlinedesktop-about {
+        display: block;
+    }
+    .logo-section {
+        background-color: #D3D3D3;
+    }
+    .logo-div {
+        width: 40%
+    }
+    .summit22 {
+       
+        width: 420px;
+        height: 350px;
+      }
+      .summit20 {
+        margin-top: 10px;
+        float: left;
+        width: 420px;
+        height: 350px;
+      }
+      .partner-section {
+        height: 300px;
+      }
+      .partner-div {
+        text-align: center;
+      }
 }
-
-/* ========Desktop version CSS Rule set=======1 */
+/*========Desktop version CSS Rule set=======1 */
 .topdesktop-about {
-  background-image: url('./images/topbg.png');
-  background-size: cover;
-  height: 200px;
+    background-image: url('./images/topbg.png');
+    background-size: cover;
+    height: 200px;
 }
-
 .topheadingdesktop-about {
-  color: orangered;
-  font-size: 34px;
-  font-weight: 400;
-  position: relative;
-  top: 150px;
-  left: 250px;
+    color: orangered;
+    font-size: 34px;
+    font-weight: 400;
+    position: relative;
+    top:150px;
+    left: 250px;
 }
-
 .topheadingdesktopdiv-about {
-  background-image: url('./images/bgimagedesign.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 350px 0;
-  background-color: #fff;
-  position: relative;
-  left: 200px;
-  padding: 45px;
-  width: 100%;
-  height: 545px;
+    background-image: url('./images/bgimagedesign.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 350px 0;
+    background-color: #fff;
+    position: relative;
+    left: 200px;
+    padding: 45px;
+    width: 100%;
+    height: 545px;
 }
-
 .topheadingh1desktop-about {
-  font-size: 50px;
-  display: block;
-  color: red;
-  font-weight: 900;
-  background-image: linear-gradient(to bottom right, red, yellow);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #ec0e0e4f;
+    font-size: 50px;
+    display: block;
+    color: red;
+    font-weight: 900;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ec0e0e4f;
 }
-
 .paradivdesktop-about {
-  background-color: #fff;
-  border: 1px solid darkgrey;
-  padding: 10px;
-  width: 70%;
+    background-color: #fff;
+    border: 1px solid darkgrey;
+    padding: 10px;
+    width: 70%;
 }
-
 .headlineparadesktop-about {
-  color: #272a31;
+    color: #272a31;
 }
-
 .datedivdesktop-about {
-  width: 100%;
+    width: 100%;
 }
-
 .dateheadingdesktop-about {
-  color: #272a31;
-  font-weight: 600;
+    color: #272a31;
+    font-weight: 600;
 }
-
 .locationparadesktop-about {
-  color: #272a31;
+    color: #272a31;
 }
