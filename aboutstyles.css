@@ -53,6 +53,11 @@ body {
   color: #fff;
 }
 
+#cross {
+  height: 60px;
+  width: 75px;
+}
+
 .imageone-about {
   width: 60px;
   height: 60px;
@@ -202,9 +207,20 @@ body {
   text-align: center;
 }
 
+.companies {
+  width: 150px;
+  height: 150px;
+}
+
 .footer-div {
   text-align: center;
 }
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu-about {
@@ -373,4 +389,9 @@ body {
 
 .locationparadesktop-about {
   color: #272a31;
+}
+
+.border-link {
+  border: 5px solid #ec5242;
+  padding: 8px 8px;
 }

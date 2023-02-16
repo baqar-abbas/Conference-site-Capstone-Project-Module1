@@ -58,6 +58,11 @@ body {
   color: #fff;
 }
 
+#cross {
+  height: 60px;
+  width: 75px;
+}
+
 .imageone {
   width: 60px;
   height: 60px;
@@ -236,6 +241,8 @@ body {
   position: relative;
   top: 14px;
   left: 14px;
+  width: 100px;
+  height: 100px;
 }
 
 .fetured-text {
@@ -255,10 +262,11 @@ body {
   font-size: 12px;
   color: #ec5242;
 }
+
 .featured-speaker::after {
-clear: both;
-content: "";
-display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .featured-span {
@@ -303,9 +311,20 @@ display: table;
   text-align: center;
 }
 
+.companies {
+  width: 150px;
+  height: 150px;
+}
+
 .footer-div {
   text-align: center;
 }
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu {
@@ -381,6 +400,11 @@ display: table;
   .nav-links {
     position: relative;
     left: 465px;
+  }
+
+  .border-link {
+    border: 5px solid #ec5242;
+    padding: 8px 8px;
   }
 
   article .headline {
