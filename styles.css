@@ -297,6 +297,9 @@ body {
   text-align: center;
 }
 
+.footer-div {
+  text-align: center;
+}
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu {
