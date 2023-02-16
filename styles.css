@@ -254,6 +254,11 @@ body {
   font-size: 12px;
   color: #ec5242;
 }
+.featured-speaker::after {
+clear: both;
+content: "";
+display: table;
+}
 
 .featured-span {
   margin-left: 10px;
