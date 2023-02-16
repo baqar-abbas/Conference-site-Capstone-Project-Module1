@@ -49,6 +49,9 @@ const speakerCards = [
 const divtohide = document.querySelector('.seemore-div');
 const button = document.querySelector('.see-more');
 const featuredDiv = document.querySelector('.dynamic');
+const divtohide2 = document.querySelector('.seemore-div-desktop');
+const button2 = document.querySelector('.see-more-desktop');
+const featuredDiv2 = document.querySelector('.dynamic-desktop');
 
 const menuWrite = () => {
   divtohide.style.display = 'none';
@@ -94,4 +97,45 @@ const menuWrite = () => {
       </section>`;
 };
 
+const menuWritedesktop = () => {
+  divtohide2.style.display = 'none';
+  featuredDiv2.innerHTML = `<table>
+  <tr>
+      <td><div class="image-of-background">
+          <img class="featured-speakers" src="${speakerCards[2].image}" alt="speaker1" width="100px" height="100px">
+      </div></td>
+      <td><h4 class="featured-heading-">${speakerCards[2].name}</h4>
+          <p class="featured-para"> <i>${speakerCards[2].description}</i></p>
+          <span class="featured-span">${speakerCards[2].description2}
+          </span> </td>
+      <td><div class="image-of-background">
+          <img class="featured-speakers" src="${speakerCards[3].image}" alt="speaker1" width="100px" height="100px">
+      </div>
+      </td>
+  <td><h4 class="featured-heading">${speakerCards[3].name}</h4>
+      <p class="featured-para"><i>${speakerCards[3].description}</i></p>
+      <span class="featured-span">${speakerCards[3].description2}
+      </span> </td>
+  </tr>
+  <tr>
+      <td><div class="image-of-background">
+          <img class="featured-speakers" src="${speakerCards[4].image}" alt="speaker1" width="100px" height="100px">
+      </div></td>
+      <td><h4 class="featured-heading-">${speakerCards[4].name}</h4>
+          <p class="featured-para"> <i>${speakerCards[4].description}</i></p>
+          <span class="featured-span">${speakerCards[4].description2}
+          </span> </td>
+      <td><div class="image-of-background">
+          <img class="featured-speakers" src="${speakerCards[5].image}" alt="speaker1" width="100px" height="100px">
+      </div>
+      </td>
+  <td><h4 class="featured-heading">${speakerCards[5].name}</h4>
+      <p class="featured-para"><i>${speakerCards[5].description}</i></p>
+      <span class="featured-span">${speakerCards[5].description2}
+      </span> </td>
+  </tr>
+</table>`;
+};
+
 button.addEventListener('click', menuWrite);
+button2.addEventListener('click', menuWritedesktop);

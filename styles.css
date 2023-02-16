@@ -265,6 +265,9 @@ color: #272a31;
   position: relative;
   left: 20px;
 }
+#featured-desktop {
+  display: none;
+}
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu {
@@ -414,6 +417,9 @@ color: #272a31;
   #featured-mobile {
     display: none;
   }
+  #featured-desktop {
+    display: block;
+  }
 }
 
 /* ========Desktop version CSS Rule set=======1 */
@@ -478,4 +484,29 @@ color: #272a31;
 
 .locationparadesktop {
   color: #272a31;
+}
+
+table {
+  width: 80%;
+  position: relative;
+  left: 110px;
+}
+td {
+  padding: 15px;
+}
+.featured-table {
+  text-align: center;
+}
+.see-more-desktop {
+  border: 1px solid #272a31;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 40%;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 400px;
+}
+.dynamic-desktop {
+  text-align: center;
 }
