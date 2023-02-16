@@ -26,11 +26,15 @@ body {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  /* background: #0e23dda9; */
   background: #ec534217;
   backdrop-filter: blur(10px);
   transition: 0.6s;
 }
+
+.bg-program li {
+  margin-top: 10px;
+}
+
 .mobile-menu ul {
   list-style-type: none;
   margin: 10% 5%;
@@ -38,9 +42,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+
 .mobile-menu ul li {
   padding: 10% 5%;
 }
+
 .mobile-menu li a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
@@ -160,10 +166,6 @@ body {
   width: 99%;
 }
 
-.bg-program li {
-  margin-top: 10px;
-}
-
 .bg-program img {
   padding: 0%;
 }
@@ -220,9 +222,7 @@ body {
   font-size: 22px;
   margin-top: 35px;
 }
-featured-speaker {
-  
-}
+
 .image-of-background {
   background-image: url('./images/speaker_bg.jpg');
   width: 100px;
@@ -230,31 +230,37 @@ featured-speaker {
   margin-left: 10px;
   float: left;
 }
+
 .featured-speakers {
   position: relative;
   top: 14px;
   left: 14px;
 }
+
 .fetured-text {
- float: left;
-  margin-left: 10px; 
+  float: left;
+  margin-left: 10px;
   width: 70%;
   overflow: visible;
 }
+
 .featured-heading {
-margin-left: 15px;
-color: #272a31;
+  margin-left: 15px;
+  color: #272a31;
 }
+
 .featured-para {
   margin-left: 10px;
   font-size: 12px;
-  color: #ec5242
+  color: #ec5242;
 }
+
 .featured-span {
   margin-left: 10px;
   font-size: 12px;
   color: #272a31;
 }
+
 .see-more {
   border: 1px solid #272a31;
   border-radius: 5px;
@@ -265,17 +271,42 @@ color: #272a31;
   position: relative;
   left: 20px;
 }
+
 #featured-desktop {
   display: none;
 }
+
+.partner-section {
+  background-color: rgb(39, 42, 50);
+  height: 550px;
+}
+
+.logosection-heading {
+  text-align: center;
+  color: #272a31;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+.partner-heading {
+  color: #fff;
+}
+
+.partner-div {
+  text-align: center;
+}
+
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu {
     display: none !important;
   }
+
   header .mobile-menu {
     display: none;
   }
+
   nav.nav-menu-desktop {
     display: flex;
     background-color: #272a31;
@@ -414,11 +445,17 @@ color: #272a31;
     text-decoration: underline;
     margin-top: 30px;
   }
+
   #featured-mobile {
     display: none;
   }
+
   #featured-desktop {
     display: block;
+  }
+
+  .partner-section {
+    height: 300px;
   }
 }
 
@@ -491,12 +528,15 @@ table {
   position: relative;
   left: 110px;
 }
+
 td {
   padding: 15px;
 }
+
 .featured-table {
   text-align: center;
 }
+
 .see-more-desktop {
   border: 1px solid #272a31;
   border-radius: 5px;
@@ -507,6 +547,7 @@ td {
   position: relative;
   left: 400px;
 }
+
 .dynamic-desktop {
   text-align: center;
 }
