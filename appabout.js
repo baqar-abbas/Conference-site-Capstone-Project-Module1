@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 const navMenu = document.querySelector('.nav-menu-about');
 const cross = document.querySelector('#cross');
 const mobileMenu = document.querySelector('.mobile-menu');

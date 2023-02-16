@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 const speakerCards = [
   {
     card: 1,
