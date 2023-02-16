@@ -25,9 +25,8 @@ body {
   justify-content: space-between;
   position: fixed;
   top: 0;
-
-  /* background: #0e23dda9; */
-  background: #ec534228;
+  z-index: 20;
+  background: #e926102f;
   backdrop-filter: blur(10px);
   transition: 0.6s;
 }
