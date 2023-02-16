@@ -110,11 +110,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo available on Git HUB <a name="live-demo">https://baqar-abbas.github.io/P/</a>
+## 🚀 Live Demo available on Git HUB <a name="live-demo">https://baqar-abbas.github.io/Conference-site-Capstone-Project-Module1/</a>
 
 
 
-- [Live Demo Link](https://baqar-abbas.github.io/P/)
+- [Live Demo Link](https://baqar-abbas.github.io/Conference-site-Capstone-Project-Module1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
