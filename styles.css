@@ -248,8 +248,8 @@ body {
 .fetured-text {
   float: left;
   margin-left: 10px;
-  width: 75%;
-  overflow: visible;
+  width: 68%;
+  overflow: hidden;
 }
 
 .featured-heading {
