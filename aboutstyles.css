@@ -306,11 +306,11 @@ body {
     left: 465px;
   }
 
-  article .headline-about {
+  section .headline-about {
     display: none;
   }
 
-  article .headlinedesktop-about {
+  section .headlinedesktop-about {
     display: block;
     background-color: #d3d3d3;
     height: auto;

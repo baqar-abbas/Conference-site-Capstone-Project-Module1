@@ -414,11 +414,11 @@ body {
     padding: 8px 8px;
   }
 
-  article .headline {
+  section .headline {
     display: none;
   }
 
-  article .headlinedesktop {
+  section .headlinedesktop {
     display: block;
   }
 
