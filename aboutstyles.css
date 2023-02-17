@@ -138,7 +138,7 @@ body {
 
 .logo-section {
   width: 100%;
-  height: 550px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,6 +159,8 @@ body {
   padding: 0 10px;
   line-height: 1.5;
   margin: 15px 20px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .logo-div {
@@ -185,6 +187,7 @@ body {
   align-self: center;
   width: 320px;
   height: 250px;
+  margin-left: 8%;
 }
 
 .summit20 {
@@ -192,6 +195,7 @@ body {
   margin-top: 10px;
   width: 320px;
   height: 250px;
+  margin-left: 8%;
 }
 
 .partner-section {
@@ -214,13 +218,23 @@ body {
 
 .footer-div {
   text-align: center;
+  color: rgb(39, 42, 50);
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-logo {
   width: 100px;
   height: 100px;
+  margin-left: 30%;
+  margin-top: 3.7%;
 }
-
+.footer-logop {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu-about {
@@ -296,10 +310,11 @@ body {
 
   article .headlinedesktop-about {
     display: block;
+    background-color: #d3d3d3;
   }
 
   .logo-section {
-    background-color: #d3d3d3;
+    background-color: #fff;
   }
 
   .logo-div {
@@ -317,14 +332,29 @@ body {
     width: 420px;
     height: 350px;
   }
-
+  .pastproject-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
   .partner-section {
     height: 300px;
+    display: none;
   }
 
   .partner-div {
     text-align: center;
   }
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    height: 190px;
+    margin-top: 3.7%;
+    color: #fff;
+    background-color: #272a31;
+  }
+  
 }
 
 /* ========Desktop version CSS Rule set=======1 */
@@ -348,7 +378,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 350px 0;
-  background-color: #fff;
+  background-color: #d3d3d3;
   position: relative;
   left: 200px;
   padding: 45px;
@@ -385,6 +415,10 @@ body {
 .dateheadingdesktop-about {
   color: #272a31;
   font-weight: 600;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .locationparadesktop-about {

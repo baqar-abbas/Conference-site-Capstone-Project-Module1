@@ -27,14 +27,6 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
- <!--> <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -173,8 +165,9 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-Solo Project - Baqar Abbas - Conference Page Project
+> Mention all of the collaborators of this project. (No Collaborators - Solo Capstone Project)
+Author - Baqar Abbas - Conference Page Project
+baqar007@hotmail.com available on Twitter and Linkedin profiles.
 
 
 
