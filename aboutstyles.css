@@ -84,7 +84,7 @@ body {
   background-color: #d3d3d3;
   padding: 45px;
   width: 100%;
-  height: 750px;
+  height: 850px;
 }
 
 .topheadingh3-about {
@@ -229,12 +229,14 @@ body {
   margin-left: 30%;
   margin-top: 3.7%;
 }
+
 .footer-logop {
   margin-left: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 /* ========Media Queries=======1 */
 @media screen and (min-width: 768px) {
   nav.nav-menu-about {
@@ -332,12 +334,14 @@ body {
     width: 420px;
     height: 350px;
   }
+
   .pastproject-images {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
   }
+
   .partner-section {
     height: 300px;
     display: none;
@@ -346,6 +350,7 @@ body {
   .partner-div {
     text-align: center;
   }
+
   .footer-div {
     display: flex;
     flex-direction: row;
@@ -354,7 +359,6 @@ body {
     color: #fff;
     background-color: #272a31;
   }
-  
 }
 
 /* ========Desktop version CSS Rule set=======1 */
