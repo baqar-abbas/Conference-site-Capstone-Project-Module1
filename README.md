@@ -166,8 +166,12 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project. (No Collaborators - Solo Capstone Project)
-Author - Baqar Abbas - Conference Page Project
-baqar007@hotmail.com available on Twitter and Linkedin profiles.
+Author - Baqar Abbas - Author1: Baqar Abbas 
+<ul>
+    <li>GitHub<a href="https://github.com/">@githubhandle</a></li>
+    <li>Twitter<a href="https://www.twitter.com/">@twitterhandle</a></li>
+    <li>LinkedIn<a href="https://www.linkedin.com"">@LinkedIn</a></li>
+  </ul>
 
 
 

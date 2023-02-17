@@ -239,15 +239,15 @@ body {
 
 .featured-speakers {
   position: relative;
-  top: 10px;
-  left: 10px;
-  width: 100px;
+  top: 8px;
+  left: 8px;
+  width: 95px;
   height: 100px;
 }
 
 .fetured-text {
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
   width: 65%;
   overflow: hidden;
 }

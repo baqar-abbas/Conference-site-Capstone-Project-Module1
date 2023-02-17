@@ -313,6 +313,7 @@ body {
   article .headlinedesktop-about {
     display: block;
     background-color: #d3d3d3;
+    height: auto;
   }
 
   .logo-section {
