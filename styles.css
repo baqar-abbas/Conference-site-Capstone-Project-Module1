@@ -574,6 +574,10 @@ table {
   left: 110px;
 }
 
+.top-speaker1 {
+  width: 38%;
+}
+
 td {
   padding: 15px;
 }
